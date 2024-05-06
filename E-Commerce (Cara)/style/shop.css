@@ -1,0 +1,95 @@
+#page-header{
+  background-image: url(../images/banner/b1.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#page-header h2,#page-header p{
+  color: white;
+}
+
+#pagination{
+  text-align: center;
+}
+
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Single Product */
+
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
+
+#prodetails .singlr-pro-details{
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .singlr-pro-details h4{
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .singlr-pro-details h2{
+  font-size: 26px;
+}
+
+#prodetails .singlr-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .singlr-pro-details input:focus{
+  outline: none;
+}
+
+#prodetails .singlr-pro-details button{
+  background-color: #088178;
+  color: white;
+}
+
+#prodetails .singlr-pro-details span{
+  line-height: 25px;
+}
